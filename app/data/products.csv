@@ -1,0 +1,6 @@
+product_id,product_name,supplier_id,unit_price
+1,Laptop,1,1200
+2,Mouse,2,25
+3,Keyboard,2,80
+4,Screen,3,300
+5,Headphones,1,150

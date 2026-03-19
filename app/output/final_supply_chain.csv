@@ -1,0 +1,9 @@
+shipment_id,product_id,warehouse_id,shipment_date,expected_delivery_date,actual_delivery_date,quantity_shipped,quantity_delivered,shipment_cost,status,product_name,supplier_id,unit_price,supplier_name,country,warehouse_name,city,revenue,delay,fill_rate
+1,1,1,2024-01-01,2024-01-05,2024-01-05,10,10,100,on_time,Laptop,1,1200,Supplier A,France,Warehouse Paris,Paris,12000,0,1.0
+2,2,1,2024-01-02,2024-01-06,2024-01-07,20,20,50,late,Mouse,2,25,Supplier B,Germany,Warehouse Paris,Paris,500,1,1.0
+3,3,2,2024-01-03,2024-01-07,2024-01-07,15,10,40,partial,Keyboard,2,80,Supplier B,Germany,Warehouse Lyon,Lyon,800,0,0.6666666666666666
+4,4,3,2024-01-04,2024-01-08,2024-01-09,8,8,60,late,Screen,3,300,Supplier C,Spain,Warehouse Madrid,Madrid,2400,1,1.0
+5,5,2,2024-01-05,2024-01-09,2024-01-09,12,12,45,on_time,Headphones,1,150,Supplier A,France,Warehouse Lyon,Lyon,1800,0,1.0
+6,1,1,2024-01-06,2024-01-10,2024-01-10,5,5,30,on_time,Laptop,1,1200,Supplier A,France,Warehouse Paris,Paris,6000,0,1.0
+7,2,2,2024-01-07,2024-01-11,2024-01-12,25,25,70,late,Mouse,2,25,Supplier B,Germany,Warehouse Lyon,Lyon,625,1,1.0
+8,3,3,2024-01-08,2024-01-12,2024-01-12,10,8,35,partial,Keyboard,2,80,Supplier B,Germany,Warehouse Madrid,Madrid,640,0,0.8
