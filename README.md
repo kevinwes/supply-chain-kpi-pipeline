@@ -162,7 +162,7 @@ Kevin Ntary Calaffard
 
 
 
-![Dashboard](https://raw.githubusercontent.com/kevinwes/supply-chain-kpi-pipeline/main/dashboard-kpi.png)
+![Dashboard](./dashboard-kpi.png)
 
 
 
