@@ -159,3 +159,8 @@ Kevin Ntary Calaffard
 🎯 Data Engineer / Supply Chain
 
 📩 Ouvert à une alternance en Data / Supply Chain / Data Engineering
+
+
+
+
+
