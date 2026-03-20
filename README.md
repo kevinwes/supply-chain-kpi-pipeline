@@ -160,12 +160,10 @@ Kevin Ntary Calaffard
 
 📩 Ouvert à une alternance en Data / Supply Chain / Data Engineering
 
-🚀 Améliorations possibles
-
-- Intégration d’un Data Warehouse (Snowflake / BigQuery)
-- Ingestion via API
-- Déploiement cloud (AWS / GCP)
-- Monitoring avancé
+### 🔍 Insights clés
+- Analyse des revenus par entrepôt
+- Suivi du taux de livraison à l’heure
+- Identification des axes d’amélioration logistique
 
 ## 📊 Dashboard
 ![Dashboard](./dashboard-kpi.png)
