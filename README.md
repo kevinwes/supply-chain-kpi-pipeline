@@ -7,7 +7,7 @@ Ce projet consiste à construire un pipeline de données complet dans le domaine
 L’objectif est de simuler un cas réel de Data Engineering en intégrant toutes les étapes :
 ingestion, transformation, stockage, analyse et orchestration.
 
----
+
 
 ## 🧠 Objectifs du projet
 
@@ -21,7 +21,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 - Orchestrer le pipeline avec Airflow
 - Visualiser les résultats avec Power BI
 
----
+
 
 ## 🛠️ Stack technique
 
@@ -31,7 +31,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 - Apache Airflow
 - Power BI
 
----
+
 
 ## 📂 Structure du projet
 
@@ -53,7 +53,7 @@ supply_chain_kpi_pipeline/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
----
+
 
 ## 🔄 Pipeline ETL
 
@@ -77,7 +77,7 @@ Chargement des données depuis plusieurs sources CSV :
 - Chargement dans SQLite :
   - table : `supply_chain_final`
 
----
+
 
 ## 📊 Analyse des données (SQL)
 
@@ -87,7 +87,7 @@ Requêtes permettant de calculer :
 - Revenue par entrepôt  
 - Fill rate moyen  
 
----
+
 
 ## ⚙️ Orchestration
 
@@ -97,7 +97,7 @@ Le pipeline est orchestré avec **Apache Airflow** dans un environnement **Docke
 - Exécution via un DAG Airflow
 - Monitoring des runs
 
----
+
 
 ## 📊 Dashboard Power BI
 
@@ -107,13 +107,13 @@ Visualisation des KPI :
 - Fill rate
 - Analyse des retards logistiques
 
----
+
 
 ## ▶️ Lancer le projet
 
 ### 1. Lancer Airflow avec Docker
 
-```bash
+bash
 docker compose up
 2. Accéder à Airflow
 
