@@ -168,8 +168,7 @@ Kevin Ntary Calaffard
 - Monitoring avancé
 
 ## 📊 Dashboard
-
-![Dashboard](powerbi/dashboard-kpi.png)
+![Dashboard](./dashboard-kpi.png)
 
 
 
