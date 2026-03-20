@@ -160,6 +160,9 @@ Kevin Ntary Calaffard
 
 📩 Ouvert à une alternance en Data / Supply Chain / Data Engineering
 
+![Dashboard](dashboard-kpi.png)
+
+
 
 
 
