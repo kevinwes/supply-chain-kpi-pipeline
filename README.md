@@ -169,7 +169,7 @@ Kevin Ntary Calaffard
 
 ## 📊 Dashboard
 
-![Dashboard](./dashboard-kpi.png)
+![Dashboard](powerbi/dashboard-kpi.png)
 
 
 
