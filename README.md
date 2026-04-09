@@ -1,4 +1,4 @@
-Supply Chain KPI Pipeline – Data Engineering Project
+Supply Chain KPI Pipeline 
 
  Description
 
