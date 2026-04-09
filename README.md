@@ -35,7 +35,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 
  Structure du projet
 
-supply_chain_kpi_pipeline/
+'''supply_chain_kpi_pipeline/
 │
 ├── app/
 │ ├── data/ # fichiers CSV (sources)
@@ -52,7 +52,7 @@ supply_chain_kpi_pipeline/
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
-└── README.md
+└── README.md '''
 
 
  Pipeline ETL
