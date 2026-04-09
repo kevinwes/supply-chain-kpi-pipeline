@@ -1,6 +1,6 @@
-# 🚀 Supply Chain KPI Pipeline – Data Engineering Project
+Supply Chain KPI Pipeline – Data Engineering Project
 
-## 📌 Description
+ Description
 
 Ce projet consiste à construire un pipeline de données complet dans le domaine de la supply chain afin d’analyser la performance logistique à travers plusieurs KPI métier.
 
@@ -9,7 +9,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 
 
 
-## 🧠 Objectifs du projet
+ Objectifs du projet
 
 - Construire un pipeline ETL complet
 - Manipuler des données supply chain (produits, entrepôts, livraisons)
@@ -23,7 +23,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 
 
 
-## 🛠️ Stack technique
+ Stack technique
 
 - Python (Pandas)
 - SQL (SQLite)
@@ -33,7 +33,7 @@ ingestion, transformation, stockage, analyse et orchestration.
 
 
 
-## 📂 Structure du projet
+ Structure du projet
 
 supply_chain_kpi_pipeline/
 │
@@ -55,9 +55,9 @@ supply_chain_kpi_pipeline/
 └── README.md
 
 
-## 🔄 Pipeline ETL
+ Pipeline ETL
 
-### 1. Extract
+ 1. Extract
 Chargement des données depuis plusieurs sources CSV :
 - suppliers
 - products
@@ -65,21 +65,21 @@ Chargement des données depuis plusieurs sources CSV :
 - inventory
 - shipments
 
-### 2. Transform
+2. Transform
 - Jointure des différentes tables
 - Calcul des KPI :
   - revenue = quantity_delivered × unit_price
   - fill_rate = quantity_delivered / quantity_shipped
   - delay = actual_delivery_date - expected_delivery_date
 
-### 3. Load
+3. Load
 - Export en CSV
 - Chargement dans SQLite :
   - table : `supply_chain_final`
 
 
 
-## 📊 Analyse des données (SQL)
+ Analyse des données (SQL)
 
 Requêtes permettant de calculer :
 
@@ -89,7 +89,7 @@ Requêtes permettant de calculer :
 
 
 
-## ⚙️ Orchestration
+ Orchestration
 
 Le pipeline est orchestré avec **Apache Airflow** dans un environnement **Dockerisé** :
 
@@ -99,7 +99,7 @@ Le pipeline est orchestré avec **Apache Airflow** dans un environnement **Docke
 
 
 
-## 📊 Dashboard Power BI
+ Dashboard Power BI
 
 Visualisation des KPI :
 - Revenue par produit
@@ -109,9 +109,9 @@ Visualisation des KPI :
 
 
 
-## ▶️ Lancer le projet
+ Lancer le projet
 
-### 1. Lancer Airflow avec Docker
+ 1. Lancer Airflow avec Docker
 
 bash
 docker compose up
@@ -131,7 +131,7 @@ Activer le DAG
 
 Cliquer sur "Trigger"
 
-📈 Résultats
+ Résultats
 
 Ce pipeline permet de :
 
@@ -143,7 +143,7 @@ Analyser les retards de livraison
 
 Optimiser le taux de service
 
-🚀 Améliorations possibles
+ Améliorations possibles :
 
 Intégration d’un Data Warehouse (Snowflake / BigQuery)
 
@@ -153,21 +153,17 @@ Déploiement cloud (AWS / GCP)
 
 Monitoring avancé
 
-👤 Auteur
 
-Kevin Ntary Calaffard
-🎯 Data Engineer / Supply Chain
-
-📩 Ouvert à une alternance en Data / Supply Chain / Data Engineering
-
-### 🔍 Insights clés
+ Insights clés
 - Analyse des revenus par entrepôt
 - Suivi du taux de livraison à l’heure
 - Identification des axes d’amélioration logistique
 
-## 📊 Dashboard
+ Dashboard
 ![Dashboard](./dashboard-kpi.png)
 
+
+Kevin Ntary Calaffard
 
 
 
